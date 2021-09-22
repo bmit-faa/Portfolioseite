@@ -1,0 +1,42 @@
+#header {
+    background-color: blue;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    
+}
+
+#nav {
+    background-color: red;
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+    
+}
+
+#main {
+    background-color: yellow;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#footer {
+    background-color:green;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    }
+
+#flex {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 10% 80% 10%;
+}
